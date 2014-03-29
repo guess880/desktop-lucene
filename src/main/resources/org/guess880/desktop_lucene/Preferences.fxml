@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.guess880.desktop_lucene.PreferencesController">
+    <children>
+        <GridPane layoutY="-14.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns:fx="http://javafx.com/fxml">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="240.0" minWidth="240.0" prefWidth="240.0" />
+                <ColumnConstraints hgrow="SOMETIMES" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+<ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="8.0" minHeight="8.0" prefHeight="8.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+                <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+                <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+                <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="SOMETIMES" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+                <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+                <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+                <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+                <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+                <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="SOMETIMES" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+                <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+                <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="SOMETIMES" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+                <RowConstraints maxHeight="40.0" minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="8.0" minHeight="8.0" prefHeight="8.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                        <Label layoutX="14.1337890625" layoutY="6.5" text="%extEditorPath" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="7.5" GridPane.rowIndex="1">
+<GridPane.margin>
+<Insets left="16.0" right="8.0" />
+</GridPane.margin></Label><GridPane GridPane.columnIndex="1" GridPane.rowIndex="1" xmlns:fx="http://javafx.com/fxml">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="30.0" minWidth="30.0" prefWidth="30.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+<children>
+                        <TextField fx:id="txtExtEditorPath" layoutX="14.40625" layoutY="2.5" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="2.0">
+<GridPane.margin>
+<Insets left="8.0" />
+</GridPane.margin></TextField>
+                        <Button layoutY="5.0" mnemonicParsing="false" onAction="#openExtEditorPathChooser" text="..." AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="2.0" GridPane.columnIndex="1">
+<GridPane.margin>
+<Insets right="16.0" />
+</GridPane.margin></Button>
+</children>
+<GridPane.margin>
+<Insets right="16.0" />
+</GridPane.margin>
+</GridPane>
+                        <Label layoutX="14.1337890625" layoutY="6.5" text="%extEditorArgs" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="7.5" GridPane.rowIndex="2">
+<GridPane.margin>
+<Insets left="16.0" right="8.0" />
+</GridPane.margin></Label>
+                        <TextField fx:id="txtExtEditorArgs" layoutX="14.40625" layoutY="2.5" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="2.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+<GridPane.margin>
+<Insets left="8.0" right="16.0" />
+</GridPane.margin></TextField>
+                        <Label layoutX="14.1337890625" layoutY="6.5" text="%extEditorWkDir" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="7.5" GridPane.rowIndex="3">
+<GridPane.margin>
+<Insets left="16.0" right="8.0" />
+</GridPane.margin></Label><GridPane GridPane.columnIndex="1" GridPane.rowIndex="3" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<columnConstraints>
+<ColumnConstraints hgrow="SOMETIMES" />
+<ColumnConstraints hgrow="SOMETIMES" maxWidth="30.0" minWidth="30.0" prefWidth="30.0" />
+</columnConstraints>
+<rowConstraints>
+<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+</rowConstraints>
+<children>
+                        <TextField fx:id="txtExtEditorWkDir" layoutX="14.40625" layoutY="3.5" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="2.0">
+<GridPane.margin>
+<Insets left="8.0" />
+</GridPane.margin></TextField>
+                        <Button layoutY="3.0" mnemonicParsing="false" onAction="#openExtEditorWkDirChooser" text="..." AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="2.0" GridPane.columnIndex="1">
+<GridPane.margin>
+<Insets right="16.0" />
+</GridPane.margin></Button>
+</children>
+<GridPane.margin>
+<Insets right="16.0" />
+</GridPane.margin>
+</GridPane>
+                        <Separator layoutX="-8.0" layoutY="6.5" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="0.0" GridPane.columnSpan="3" GridPane.rowIndex="4">
+<GridPane.margin>
+<Insets left="16.0" right="16.0" />
+</GridPane.margin></Separator>
+                        <Label layoutX="14.1337890625" layoutY="6.5" text="%searchResultsCharset" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="7.5" GridPane.rowIndex="5">
+<GridPane.margin>
+<Insets left="16.0" right="8.0" />
+</GridPane.margin></Label>
+                        <ChoiceBox fx:id="cbSearchResultsCharset" layoutX="10.0" layoutY="2.5" prefWidth="150.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="2.0" GridPane.columnIndex="1" GridPane.rowIndex="5" xmlns:fx="http://javafx.com/fxml">
+<GridPane.margin>
+<Insets left="8.0" right="16.0" />
+</GridPane.margin></ChoiceBox>
+                        <Label layoutX="14.0" layoutY="9.0" text="%searchResultHeader" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="7.5" GridPane.rowIndex="6" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane.margin>
+<Insets left="16.0" right="8.0" />
+</GridPane.margin></Label>
+                        <TextField fx:id="txtSearchResultHeader" layoutX="14.0" layoutY="5.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="2.0" GridPane.columnIndex="1" GridPane.rowIndex="6" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane.margin>
+<Insets left="8.0" right="16.0" />
+</GridPane.margin></TextField>
+                        <Label layoutX="14.0" layoutY="7.0" text="%searchResultBody" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="7.5" GridPane.rowIndex="7" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane.margin>
+<Insets left="16.0" right="8.0" />
+</GridPane.margin></Label>
+                        <TextField fx:id="txtSearchResultBody" layoutX="60.0" layoutY="6.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="2.0" GridPane.columnIndex="1" GridPane.rowIndex="7" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane.margin>
+<Insets left="8.0" right="16.0" />
+</GridPane.margin></TextField>
+                        <Label layoutX="41.8662109375" layoutY="7.5" text="%searchResultFooter" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="7.5" GridPane.rowIndex="8" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane.margin>
+<Insets left="16.0" right="8.0" />
+</GridPane.margin></Label>
+                        <TextField fx:id="txtSearchResultFooter" layoutY="2.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="2.0" GridPane.columnIndex="1" GridPane.rowIndex="8" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane.margin>
+<Insets left="8.0" right="16.0" />
+</GridPane.margin></TextField>
+                        <Separator layoutX="46.0" layoutY="14.5" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="0.0" GridPane.columnSpan="3" GridPane.rowIndex="9" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane.margin>
+<Insets left="16.0" right="16.0" />
+</GridPane.margin></Separator>
+                        <Label layoutX="57.6337890625" layoutY="6.5" text="%searchLog" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="7.5" GridPane.rowIndex="10">
+<GridPane.margin>
+<Insets left="16.0" right="8.0" />
+</GridPane.margin></Label>
+                        <CheckBox fx:id="cbShowDetailLog" layoutX="14.3857421875" layoutY="6.0" text="%showDetailLog" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="6.5" GridPane.columnIndex="1" GridPane.rowIndex="10">
+<GridPane.margin>
+<Insets left="8.0" right="16.0" />
+</GridPane.margin></CheckBox>
+                        <Separator layoutX="46.0" layoutY="14.5" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="0.0" GridPane.columnSpan="3" GridPane.rowIndex="11" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane.margin>
+<Insets left="16.0" right="16.0" />
+</GridPane.margin></Separator>
+                <GridPane GridPane.columnIndex="1" GridPane.rowIndex="12" xmlns:fx="http://javafx.com/fxml">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="120.0" minWidth="120.0" prefWidth="120.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="120.0" minWidth="120.0" prefWidth="120.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                                <Button fx:id="btnOk" layoutX="37.927734375" layoutY="4.5" maxWidth="100.0" minWidth="100.0" onAction="#ok" prefWidth="100.0" text="%ok" AnchorPane.bottomAnchor="8.0" AnchorPane.rightAnchor="16.0" GridPane.columnIndex="1" />
+                                <Button fx:id="btnCancel" cancelButton="true" layoutX="37.927734375" layoutY="4.5" maxWidth="100.0" minWidth="100.0" onAction="#cancel" prefWidth="100.0" text="%cancel" AnchorPane.bottomAnchor="8.0" AnchorPane.rightAnchor="16.0" GridPane.columnIndex="2" />
+                    </children>
+                </GridPane>
+            </children>
+        </GridPane>
+    </children>
+</AnchorPane>
